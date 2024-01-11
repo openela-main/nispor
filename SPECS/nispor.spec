@@ -1,5 +1,5 @@
 Name:           nispor
-Version:        1.2.10
+Version:        1.2.12
 Release:        1%{?dist}
 Summary:        API for network status querying
 License:        ASL 2.0
@@ -152,6 +152,10 @@ popd
 %{_libdir}/pkgconfig/nispor.pc
 
 %changelog
+* Thu Jul 20 2023 Gris Ge <fge@redhat.com> - 1.2.12-1
+- New release 1.2.12 (Gris Ge)
+- Use latest rust-netlink crates (Gris Ge)
+
 * Thu Feb 16 2023 Gris Ge <fge@redhat.com> - 1.2.10-1
 - Upgrade to 1.2.10. RHBZ#2153165
 
